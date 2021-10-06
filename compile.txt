@@ -1,0 +1,16 @@
+
+> javac -d .\build\
+ .\source\analisis\*.java 
+ .\source\analisis\datos\*.java 
+ .\source\interfaz\contenedores\*.java
+ .\source\interfaz\controles\*.java
+ .\source\interfaz\selectores\*.java
+ .\source\interfaz\texto\*.java
+ .\source\interfaz\ventanas\*.java
+> jar cfe Practica1.jar interfaz.ventanas.Ejecutar -C .\build\ .
+> java -jar Practica1.jar
+
+
+javac -d .\build\ .\source\analisis\*.java  .\source\analisis\datos\*.java  .\source\interfaz\contenedores\*.java .\source\interfaz\controles\*.java .\source\interfaz\selectores\*.java .\source\interfaz\texto\*.java .\source\interfaz\ventanas\*.java
+jar cfe Practica1.jar interfaz.ventanas.Ejecutar -C .\build\ .
+java -jar Practica1.jar
